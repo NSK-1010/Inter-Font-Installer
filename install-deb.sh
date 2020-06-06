@@ -1,3 +1,4 @@
+cd deb
 cd inter
 mkdir usr
 cd usr
@@ -10,3 +11,4 @@ rm inter.zip
 cd ../../..
 dpkg -b inter
 sudo apt install ./inter.deb
+cd ..
