@@ -27,4 +27,4 @@ sudo bash ./install-deb.sh
 
 ### 更新履歴について
 
-[[changelog.txt]]に書いてあります。
+[changelog.txt]に書いてあります。
