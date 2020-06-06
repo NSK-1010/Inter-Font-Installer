@@ -17,10 +17,14 @@ sudo bash ./install.sh
 
 #### debファイルを作成してインストール
 
-DebianまたはUbuntuのみで使用できます。
+Debian系またはUbuntu系のみで使用できます。
 
 ```
 git clone https://github.com/NSK-1010/Inter-Font-Installer.git
 cd Inter-Font-Installer
 sudo bash ./install-deb.sh
 ```
+
+### 更新履歴について
+
+[[changelog.txt]]に書いてあります。
