@@ -1,3 +1,5 @@
+#!/bin/bash
+
 wget -O inter.zip https://fonts.google.com/download?family=Inter
 mkdir inter
 unzip inter.zip -d inter
