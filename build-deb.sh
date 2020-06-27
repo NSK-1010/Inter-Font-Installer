@@ -1,3 +1,5 @@
+#!/bin/bash
+
 cd deb
 cd inter
 mkdir usr
