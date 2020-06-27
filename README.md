@@ -25,6 +25,14 @@ cd Inter-Font-Installer
 sudo bash ./install-deb.sh
 ```
 
+#### debファイルの作成のみ
+
+```
+git clone https://github.com/NSK-1010/Inter-Font-Installer.git
+cd Inter-Font-Installer
+sudo bash ./build-deb.sh
+```
+
 ### 更新履歴について
 
 [changelog.txt](./changelog.txt)に書いてあります。
