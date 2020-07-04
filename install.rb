@@ -5,7 +5,7 @@ fileName = "inter.zip"
 
 open(fileName, 'rwa+b') do |output|
   open(@path) do |data|
-    output.write(data.read)          #※２
+    output.write(data.read)
   end
 end
 
