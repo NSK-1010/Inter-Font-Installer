@@ -1,36 +1,30 @@
-# Inter-Font-Installer
-Inter UIフォントをLinuxに簡単にインストールするためのスクリプトです。
+# Inter-Font-Installer-Ruby
+Inter UIフォントをUnix系に簡単にインストールするためのスクリプトです。
 
 ### インストール方法
 
 ターミナルでこちらのコマンドを入力してください。
 
-sudo権限が必要です。
+一般ユーザーの場合はsudo権限が必要です。
 
 #### 通常インストール
 
-```
-git clone https://github.com/NSK-1010/Inter-Font-Installer.git
-cd Inter-Font-Installer
-sudo bash ./install.sh
-```
-
-#### debファイルを作成してインストール
-
-Debian系またはUbuntu系のみで使用できます。
+##### rootユーザーまたは管理者
 
 ```
 git clone https://github.com/NSK-1010/Inter-Font-Installer.git
+git checkout ruby
 cd Inter-Font-Installer
-sudo bash ./install-deb.sh
+ruby ./install.rb
 ```
 
-#### debファイルの作成のみ
+##### sudo
 
 ```
 git clone https://github.com/NSK-1010/Inter-Font-Installer.git
+git checkout ruby
 cd Inter-Font-Installer
-sudo bash ./build-deb.sh
+sudo ruby ./install.rb
 ```
 
 ### 更新履歴について
