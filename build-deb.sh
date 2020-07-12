@@ -1,19 +1,26 @@
 #!/bin/bash
 
+zipname="`inter.zip`"
+downloadfile="`https://fonts.google.com/download?family=Inter`"
+fontname="`inter`"
+dir="`inter/static`"
+
 cd deb
-cd inter
+cd "${fontname}"
 mkdir usr
 cd usr
 mkdir share
 cd share
-wget -O inter.zip https://fonts.google.com/download?family=Inter
-mkdir inter
-unzip inter.zip -d inter
-mv ./inter/static/*.ttf ./
-rm -r inter
-mkdir inter
-mv ./*.ttf inter
-rm inter.zip
+mkdir fonts
+cd fonts
+wget -O "${zipname}" "${downloadfile}"
+mkdir "${fontname}"
+unzip "${zipname}" -d "${fontname}"
+mv ./${dir}/*.ttf ./
+rm -r "${fontname}"
+mkdir "${fontname}"
+mv ./*.ttf "${fontname}"
+rm "${zipname}"
 cd ../../..
-dpkg -b inter
+dpkg -b "${fontname}"
 cd ..
