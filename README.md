@@ -1,6 +1,10 @@
 # Inter-Font-Installer
 Inter UIフォントをLinuxに簡単にインストールするためのスクリプトです。
 
+### 依存環境
+
+`bash`,`mv`,`wget`,`unzip`,`mkdir`,`rm`
+
 ### インストール方法
 
 ターミナルでこちらのコマンドを入力してください。
