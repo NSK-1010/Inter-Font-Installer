@@ -1,9 +1,8 @@
 #!/bin/bash
 
-zipname="`inter.zip`"
-downloadfile="`https://fonts.google.com/download?family=Inter`"
-fontname="`inter`"
-dir="`inter/static`"
+zipname="inter.zip"
+downloadfile="https://fonts.google.com/download?family=Inter"
+fontname="inter"
 
 cd deb
 cd "${fontname}"
