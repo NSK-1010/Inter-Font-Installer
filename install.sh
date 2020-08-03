@@ -7,7 +7,7 @@ dir="inter/static"
 
 wget -O "${zipname}" "${downloadfile}"
 mkdir "${fontname}"
-unzip "${zipname}" -d 
+unzip "${zipname}" -d "./${fontname}"
 sudo mkdir "/usr/share/fonts/${fontname}"
 sudo mv "./${dir}/*.ttf" "/usr/share/fonts/${fontname}"
 rm -r "${fontname}"
